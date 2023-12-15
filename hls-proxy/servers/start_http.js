@@ -1,7 +1,7 @@
 const http = require('http')
 
 const start_server = function({port}) {
-  if (!port || isNaN(port)) port = 80
+  if (!port || isNaN(port)) port = 1458
 
   const server = http.createServer()
 
